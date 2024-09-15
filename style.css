@@ -66,15 +66,54 @@ body>footer {
     padding: 10px;
 }
 
-body>footer li {
+body>footer h2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 5% ;
 }
 
 #sections {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
 }
 
 #more-sections {
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+#final-sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#sections>li>a {
+    text-decoration: none;
+    color: black;
+    background-color: #017A79;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#more-sections>li>a {
+    text-decoration: none;
+    color: black;
+    background-color: #017A79;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#final-sections>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 50px
+}
+
+body>footer li {
+    list-style: none;
 }
